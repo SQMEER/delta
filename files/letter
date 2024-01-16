@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+echo "Enter the letter to check"
+read letter
+if [[ $letter == [AEIOUaeiou] ]]
+then
+echo "It is an Vowel"
+else
+echo "It's Consonant"
+fi

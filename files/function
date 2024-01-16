@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo " Enter the thought : "
+read thought
+message() {
+    echo "Thought of the day is : $thought"
+}
+
+
+message

@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo " Enter the file name "
+read name
+
+
+file_path="/home/ec2-user/files/$name"
+
+
+if [ -e "$file_path" ]
+then
+    echo "File exists in this directory"
+else
+    echo "File does not exist"
+fi

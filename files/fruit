@@ -1,0 +1,10 @@
+#!/bin/bash
+
+Myfruit=("Mango" "Grape" "Strawberry" "Banana" "Oranges")
+
+echo " Top seasonal fruits are :"
+ for elements in "${Myfruit[@]}"
+ do
+	echo "$elements"
+ done
+
